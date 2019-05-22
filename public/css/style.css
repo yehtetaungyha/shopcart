@@ -1,0 +1,132 @@
+
+
+
+/*index*/
+.div_login{
+	margin-top: 5%;
+	margin-left: 30%;
+	border-radius: 6px;
+	border: 2px solid #00bcd4;
+	background: #ffffff;
+	box-shadow:0px 0px 20px #00bcd4;
+}
+body{
+	margin: 4% 4% !important;
+}
+.navbar-default{
+	background-color: #ffffff !important;
+	border-color: #ffffff !important;
+	box-shadow: 0px 0px 10px #ddd !important;
+}
+
+.navbar-nav li a{
+	font-size: 1em;
+	padding-top: 22px !important;
+}
+.navbar-nav li a:hover{
+	background-color: #FE980F !important;
+}
+
+
+h1{
+	padding-bottom: 5%;
+}
+.thumbnail>img{
+	max-width: 80% !important;
+}
+.thumbnail{
+	max-height: 100% !important;
+	max-width: 100% !important;
+	background-color: #dedede !important;
+}
+.thumbnail .caption{
+	padding-left: 28% !important;
+}
+.thumbnail:hover{
+	background: #ded !important;
+}
+{
+	padding-left: 12%;
+}
+.cart_btn:hover{
+	background: #FE980F !important;
+	color: #fff !important;
+}
+ul li a{
+	text-decoration: none !important;
+
+}
+.nav_list > li> a  {
+	background: #fff !important;
+	color: #696763 !important;
+}
+.nav_list > li> a:hover {
+	color: #fe980f !important;
+}
+.nav-list>li>a {
+	color: #696763 !important;
+}
+label.error {
+	color: #900;
+	font-size: 13px;
+	font-style: italic;
+	margin-top: -1px;
+}
+
+div.error {
+	text-align: center;
+	font-size: 14px;
+	margin: 10px 20px;
+	background: #ffd;
+	border: 1px solid #950;
+	color: #950;
+	font-weight: bold;
+	padding: 8px 0;
+}
+.carousel-inner{
+	margin-top: -18px;
+}
+.div_footer{
+	background:#242424;
+}
+.nav_footer li a{
+	color: #fff;
+	background-color: #242424 !important;
+	font-size: 1.2em;
+
+}
+.nav_footer li a:hover{
+	color: #696763;
+}
+.nav_footer li{
+	padding-bottom: 10px;
+}
+.footer_h3{
+	padding-left: 10%;
+	color: #fff !important;
+	margin-bottom: 10% !important;
+}
+.footer_p{
+	color:#fff;
+}
+.footer_address{
+	padding-left: 10%;
+	color: #fff !important;
+	font-size: 1.2em;
+}
+.div_detail{
+	box-shadow: 0px 0px 1px 5px  #ddd;
+}
+p{
+	font-size: 1.2em;
+}
+.email_p{
+	color:red;
+}
+
+.thumbnails.small {
+	margin-top: 10px;
+}
+.table_text{
+	font-size: 1.2em;
+}
