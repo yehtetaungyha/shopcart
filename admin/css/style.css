@@ -1,0 +1,63 @@
+.div_login{
+	margin-top: 5%;
+	margin-left: 30%;
+	border-radius: 6px;
+	border: 2px solid #00bcd4;
+	background: #ffffff;
+	box-shadow:0px 0px 20px #00bcd4;
+}
+.add_btn{
+	margin-top: 2%;
+}
+.tbl_list{
+	margin-top: 2%;
+}
+.div_nav{
+	background:#00bcd4 ;
+}
+.header_title{
+	color: #fff;
+	padding-left:40px;
+	margin-bottom: 20px;
+}
+.nav_top{
+	margin-top: -22px !important;
+}
+label.error {
+	color: #900;
+	font-size: 13px;
+	font-style: italic;
+	margin-top: -1px;
+}
+li.delivered .div_order b,
+li.delivered .div_order i,
+li.delivered .div_order p,
+li.delivered .div_order span {
+  text-decoration: line-through !important;
+}
+
+ul.orders .div_item b {
+  border-bottom: 1px dotted #ddd;
+  line-height: 1.8em;
+}
+ul.orders li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+ul.orders b,
+ul.orders i,
+ul.orders span {
+  display: block;
+}
+
+ul.orders .div_order {
+  border-right: 1px dotted #ddd;
+}
+
+ul.orders li.delivered {
+  color: #999;
+}
