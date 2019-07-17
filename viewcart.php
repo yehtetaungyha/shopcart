@@ -66,7 +66,8 @@
                           foreach($_SESSION['cart'] as $id => $qty):
                           $result = mysqli_query($conn, "SELECT cover, itemname, price FROM items WHERE id=$id");
                           $row = mysqli_fetch_assoc($result);
-                          $total += $row['price'] * $qty;
+                          // print_r($row);exit;
+                          $total += (float)$row['price'] * $qty;
                         ?>
                           <tr class="table_text" >
                               <td style="text-align: center">
@@ -76,7 +77,7 @@
                               <td >
                                 <input style="text-align: center" type="text" class="form-control" value="<?php echo $qty ?>" disabled></td>
                               <td style="text-align: center"><?php echo $row['price'] ?></td>
-                              <td style="text-align: center"><?php echo $row['price'] * $qty ?>ks</td> 
+                              <td style="text-align: center"><?php echo (float)  $row['price'] * $qty ?>ks</td> 
                           </tr>
                         <?php endforeach; ?>   
                           <tr class="table_text">
